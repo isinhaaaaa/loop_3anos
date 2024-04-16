@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("Qual o melhor resort?");
 
     
-    if (respostaTime.toLowerCase() === "Aguativa Golf Resort") {
+    if (respostaTime.toLowerCase() === "aguativa golf resort") {
       alert("Isso mesmo! O Aguativa Golf Resort é o melhor! ");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
